@@ -1,0 +1,14 @@
+# Logs
+log/
+
+# Compiled assets
+css/index.css
+
+# New Relic
+newrelic.js
+
+# MediaShare
+src
+resources
+log
+*.pem
