@@ -4,19 +4,16 @@
   "description": "Free peer-to-peer file transfers in your browser.",
   "preferGlobal": "true",
   "bin": "./dist/index.js",
-  "author": "Alex Kern <alex@kern.io> (http://kern.io)",
+  "author": "",
   "license": "BSD-3-Clause",
-  "homepage": "https://github.com/kern/filepizza",
+  "homepage": "",
   "scripts": {
     "start": "node ./dist/index.js",
     "build": "babel lib --ignore __tests__,__mocks__ --out-dir dist && webpack -p ./lib/client"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:kern/filepizza.git"
-  },
-  "bugs": {
-    "url": "https://github.com/kern/filepizza/issues"
+    "url": ""
   },
   "engines": {
     "node": ">= 5.0.0",
